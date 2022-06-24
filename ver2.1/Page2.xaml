@@ -1,0 +1,29 @@
+﻿<Page x:Class="ver2._1.Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:ver2._1"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page2">
+
+    <Grid Width="600" Height="398" Background="#DCD1AE" >
+        <Border BorderBrush="Gray" BorderThickness="0.5" Loaded="Border_Loaded" Height="451"/>
+        <Label Content="狀態" HorizontalAlignment="Left" Margin="158,154,0,0" VerticalAlignment="Top"/>
+        <Label Content="國家" HorizontalAlignment="Left" Margin="158,124,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="StatusLabel" Content="N/A" HorizontalAlignment="Center" Margin="0,154,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="ContryLabel" Content="N/A" HorizontalAlignment="Center" Margin="0,124,0,0" VerticalAlignment="Top"/>
+        <Label Content="城市" HorizontalAlignment="Left" Margin="158,184,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="CityLabel" Content="N/A" HorizontalAlignment="Center" Margin="0,184,0,0" VerticalAlignment="Top"/>
+        <Label Content="您目前查的IP地址為：" HorizontalAlignment="Left" Margin="119,94,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="IpLabel" Content="N/A" HorizontalAlignment="Center" Margin="0,94,0,0" VerticalAlignment="Top"/>
+        <Label Content="緯度" HorizontalAlignment="Left" Margin="158,244,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LonLabel" Content="N/A" HorizontalAlignment="Center" Margin="0,214,0,0" VerticalAlignment="Top"/>
+        <Label Content="經度" HorizontalAlignment="Left" Margin="158,214,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LatLabel" Content="N/A" HorizontalAlignment="Center" Margin="0,244,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="SearchIp" HorizontalAlignment="Left" Margin="119,66,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="142" Height="22" FontSize="16" FontWeight="Bold" FontFamily="Arial"  PreviewMouseDown="SearchIp_PreviewMouseDown"/>
+        <Button x:Name="Search" Content="搜尋" HorizontalAlignment="Center" Margin="0,67,0,0" VerticalAlignment="Top" Click="Search_Click"/>
+        <!--<Image x:Name="Flag" HorizontalAlignment="Left" Height="38" Margin="128,124,0,0" VerticalAlignment="Top" Width="67" RenderTransformOrigin="0.512,0.312"/>-->
+    </Grid>
+</Page>

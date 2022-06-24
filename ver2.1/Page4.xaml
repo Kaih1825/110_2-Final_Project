@@ -1,0 +1,24 @@
+﻿<Page x:Class="ver2._1.Page4"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      
+      xmlns:local="clr-namespace:ver2._1"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page4">
+
+    <Grid Width="600" Height="398" Background="#DCD1AE">
+        <RichTextBox x:Name="txb" Background="#DCD1AE" Loaded="RichTextBox_Loaded" Block.LineHeight="1" PreviewMouseDown="txb_PreviewMouseDown" KeyUp="txb_KeyUp">
+            <RichTextBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="剪下(T)" Command="Cut"/>
+                    <MenuItem Header="複製(C)" Command="Copy"/>
+                    <MenuItem Header="貼上(P)" Command="Paste"/>
+                </ContextMenu>
+            </RichTextBox.ContextMenu>
+            <FlowDocument/>
+        </RichTextBox>
+    </Grid>
+</Page>
