@@ -12,8 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.Data;           //使用DataSet必須引用
-using System.Data.SqlClient;   //使用SqlConnection, SqlCommand, SqlDataAdapter必須引用
+using System.Data;
+using System.Data.SqlClient;
 
 namespace ver2._1
 {

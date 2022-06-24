@@ -40,7 +40,7 @@ namespace ver2._1
             //宣告Timer
             DispatcherTimer _timer = new DispatcherTimer();
 
-            //設定呼叫間隔時間為600ms
+            //設定呼叫間隔時間為300ms
             _timer.Interval = TimeSpan.FromMilliseconds(300);
 
             //加入callback function
