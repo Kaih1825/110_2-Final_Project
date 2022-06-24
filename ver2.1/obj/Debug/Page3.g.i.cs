@@ -76,7 +76,7 @@ namespace ver2._1 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/110_2期末專題;component/page3.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ver2.1;component/page3.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\Page3.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
