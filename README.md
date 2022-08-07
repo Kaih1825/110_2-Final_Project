@@ -1,5 +1,5 @@
-<h1 style="text-align:center">高一下期末專題</br>
-<h2 style="text-align:center">多功能工具</br>
+<h1 align="center">高一下期末專題</hi></br>
+<h3 align="center">多功能工具</h3></br>
 
 ## 功能
 ### &emsp;1.天氣
